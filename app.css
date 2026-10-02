@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 244, 241, 0.728);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: auto;
+}
+
+.todo-app {
+    width: 70%;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 1px ;
+    background-color: #fff;
+    padding: 20px;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    
+}
+
+.todo-app::-webkit-scrollbar {
+    display: none; 
+}
+
+h1, p {
+    text-align: center;
+    color: rgba(34, 34, 207, 0.861);
+   
+}
+
+button {
+    padding: 0.5em;
+    font-size: 0.85em;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+
+li {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: rgba(70, 67, 67, 0.068);
+    
+    
+}
+
+#add-btn {
+    color: #fff;
+    background-color: rgb(26, 141, 26);
+}
+
+#clear-comp-btn {
+    color: #fff;
+    background-color: hsl(58, 79%, 42%);
+}
+#clear-all-btn {
+    color: #fff;
+    background-color: hsla(13, 89%, 46%, 0.886);
+}
+
+.delete-btn {
+    display: block;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    color: burlywood;
+}
+
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.242);
+    padding: 0.5em;
+    border-radius: 4px;
+    font-size: 0.85em;
+}
+
+span {
+    cursor: pointer;
+}
